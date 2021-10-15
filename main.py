@@ -5,23 +5,6 @@ import random
 import socket
 import threading
 import os
-password ='k4ndar147'
-
-os.system("clear")
-for i in range(3):
-    pwd = input("[=>] Enter Account : ")
-    j=3
-    if(pwd==password):
-        time.sleep(4)
-        print("[+] Wait A Moment!!! ")
-        break
-    else:
-        time.sleep(5)
-        print("[=>] Wrong Account!!! ")
-        continue
-time.sleep(5)
-print("[@] Login Successful")
-time.sleep(5)
 
 os.system("clear")
 print("""\x1b[1;92m
